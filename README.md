@@ -67,7 +67,7 @@ df = pd.read_csv("cleaned_global_video_game_sales.csv")
 
 
 ```python
-# Display it's shape 
+# Display it's shape (columns, rows) 
 print("Shape:", df.shape)
 
 ```
@@ -81,23 +81,6 @@ print("Shape:", df.shape)
 df.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -228,19 +211,6 @@ df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -344,6 +314,5 @@ df.describe()
 ### Part 4: Designing the Methodology Diagram
 
 
-```python
+![Methodology Diagram](Methodology_Diagram.jpeg)
 
-```
